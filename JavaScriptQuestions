@@ -1,1 +1,46 @@
-This file is use for javascript interview question
+JavaScript Inteview Questions And Answers - Part 1
+Why do people say javaScript is a Dynamic Language ?
+ Things can change during runtime.
+What does things can change means ?
+ Things means variables values.
+But values of the variable can always change ?
+ Variable can have a number, later the variable can have boolean and later a string.
+              /*   Answer Briefly & to the Point...   */
+Q1: Why do we call javaScript as dynamic language ?
+Ans: JavaScript is a dynamic language means data types of the variables can change during the runtime.
+Q2: How does JavaScript determine data types ?
+Ans: JavaScript determine data types depending on the value assigned during runtime.
+Q3: What is typeOf functions ?
+    How to check data type in javaScript ?
+Ans: We can get datatype by using "typeOf" function.
+Q4: What are different datatypes in JavaScript ?
+Ans: Primitive: String, Number, null, Undefined, Boolean, Big int, Symbol  | (SNNUBO)
+     Objects:   Object
+Q5: Explain Undefined Data Types ?
+Ans: Undefined means the variable has been declared but no value is assigned to it.
+Q6: What is Null ?
+Ans: Null is a data type, Null indicates intentional absence of data. Null indicates its not zero, Its not empty its
+     just absence of data. It acts as a placeholder to indicate that a variable doesn't hold any data currently. 
+Q7: Null VS Undefined ?
+Ans: Undefined: Variable has been created but value is not assigned.
+     Null:- We assign value Null, it indicates absence of data.
+Q8: Explain Hoisting ?
+Ans: Hoisting refers to the unique behavior where declarations of variables and function declaration with "var" are moved to the top of their scope.
+     Hoisting applies only to declarations, not assignments.
+     "let" and "const" declarations do not get hoisted. They are confined to their block scope and cannot be accessed before their declaration.
+     Functions:
+       Function declarations are entirely hoisted to the top of their scope.
+       You can call a function before its declaration in the code.
+     Variable declarations with var:
+       Only the declaration (not the initialization) is hoisted.
+       The variable is accessible before its declaration, but its value is undefined.
+Q9: Are JavaScript initialization hoisted ?
+Ans: No.
+Q10: What is global variables ?
+Ans: Global variable are accessible throough out the webpage or the document.
+     Global variable has Global Scope. It can be accessed from anywhere in your program.
+Q11: What are the issues with Global variables ?
+Ans: It's is manipulated by many function, and very hard to debug and it make application very buggi.
+Q12: What happens when you declare variable with out VAR ?
+Ans: With out VAR Variable becomes Global.
+Q13: 
