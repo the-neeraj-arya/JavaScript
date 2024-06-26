@@ -43,4 +43,19 @@ Q11: What are the issues with Global variables ?
 Ans: It's is manipulated by many function, and very hard to debug and it make application very buggi.
 Q12: What happens when you declare variable with out VAR ?
 Ans: With out VAR Variable becomes Global.
-Q13: 
+Q13: What is Use Strict ?
+Q14: How to force developers to use Var keyword ?
+Ans: "use strict" is a directive that enables strict mode. Strict mode is an optional mode that introduces stricter parsing and error handling rules for your code.
+     Enabling Strict Mode:
+     You can enable strict mode in two ways:
+       Globally: Add "use strict"; at the very beginning of your JavaScript file. This puts your entire code in strict mode.
+       Locally: Add "use strict"; at the beginning of a function body. This enables strict mode only within that specific function.
+     Benefits of Strict Mode:
+       Catches Errors Early: 
+       Prevents Silent Errors:
+       Eliminates Implicit Variable Declarations:
+       Restricts Future Reserved Words:
+Q15: How can we handle Global Variables ?
+Q16: How can we avoid Global Variables ?
+Ans: 
+
